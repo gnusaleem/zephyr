@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Saleemuddin Shaik
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_WIO_RP2040_MINI
+	select SOC_RP2040
+	select RP2_FLASH_W25Q080
+
